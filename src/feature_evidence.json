@@ -1,0 +1,45 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-website-s-top-hero-messaging-to-clearly-state-that-courses-are-available-in-open-distance-mode-and-online-mode-and-that-these-options-are-available-across-chhattisgarh-using-correct-english-spelling-and-grammar",
+      "featureTitle": "Update the website’s top/hero messaging to clearly state that courses are available in Open/Distance mode and Online mode, and that these options are available across Chhattisgarh, using correct English spelling and grammar.",
+      "files": [
+        "frontend/src/components/sections/HomeHero.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-revise-the-upper-section-design-header-home-hero-area-to-a-refreshed-more-polished-layout-while-keeping-the-existing-navigation-targets-home-services-streams-about-contact-responsiveness-and-scroll-to-section-behavior-intact",
+      "featureTitle": "Revise the upper section design (header + home hero area) to a refreshed, more polished layout while keeping the existing navigation targets (Home/Services/Streams/About/Contact), responsiveness, and scroll-to-section behavior intact.",
+      "files": [
+        "frontend/src/components/sections/HomeHero.tsx",
+        "frontend/src/components/site/Header.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

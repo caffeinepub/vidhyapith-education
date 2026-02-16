@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website project for Vidhyapith Education (education consultancy) covering services from Graduation to PhD across all streams, with clear information and contact flow.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-marketing-website-for-vidhyapith-education-education-consultancy-that-clearly-presents-offerings-from-graduation-to-phd-across-all-streams-with-navigation-to-core-sections-home-services-streams-about-and-contact",
+      "title": "Create a responsive marketing website for “Vidhyapith Education” (education consultancy) that clearly presents offerings from Graduation to PhD across all streams, with navigation to core sections: Home, Services, Streams, About, and Contact.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-coherent-visual-theme-and-design-system-for-the-site-color-palette-typography-spacing-component-styling-with-a-distinct-professional-education-consultancy-look-applied-consistently-across-all-pages-sections-avoid-blue-purple-as-the-primary-palette",
+      "title": "Add a coherent visual theme and design system for the site (color palette, typography, spacing, component styling) with a distinct, professional education-consultancy look, applied consistently across all pages/sections (avoid blue & purple as the primary palette).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-website-content-sections-that-communicate-1-what-vidhyapith-education-does-2-program-levels-supported-graduation-postgraduate-phd-and-3-all-streams-coverage-using-clear-headings-short-descriptions-and-structured-lists-cards",
+      "title": "Implement website content sections that communicate: (1) what Vidhyapith Education does, (2) program levels supported (Graduation, Postgraduate, PhD), and (3) “All Streams” coverage, using clear headings, short descriptions, and structured lists/cards.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-section-page-that-includes-a-form-for-prospective-students-to-submit-an-inquiry-name-email-or-phone-interested-level-program-stream-area-of-interest-message",
+      "title": "Add a Contact section/page that includes a form for prospective students to submit an inquiry (name, email or phone, interested level/program, stream/area of interest, message).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-wire-the-frontend-contact-form-submission-to-the-backend-inquiry-method-using-the-existing-actor-pattern-and-handle-success-error-states-in-the-ui",
+      "title": "Wire the frontend Contact form submission to the backend inquiry method using the existing actor pattern, and handle success/error states in the UI.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-set-appropriate-basic-site-metadata-for-an-education-consultancy-website-document-title-description-meta-tag-and-favicon-referencing-vidhyapith-education",
+      "title": "Set appropriate basic site metadata for an education consultancy website (document title, description meta tag, and favicon) referencing “Vidhyapith Education”.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-simple-footer-with-the-business-name-vidhyapith-education-and-a-brief-tagline-in-english-aligned-with-education-consultancy-from-graduation-to-phd",
+      "title": "Add a simple footer with the business name “Vidhyapith Education” and a brief tagline (in English) aligned with education consultancy from Graduation to PhD.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-static-images-logo-and-hero-from-frontend-static-assets-and-integrate-them-into-the-ui-logo-in-header-footer-hero-image-in-the-top-section",
+      "title": "Render the generated static images (logo and hero) from frontend static assets and integrate them into the UI (logo in header/footer; hero image in the top section).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-website-s-top-hero-messaging-to-clearly-state-that-courses-are-available-in-open-distance-mode-and-online-mode-and-that-these-options-are-available-across-chhattisgarh-using-correct-english-spelling-and-grammar",
+      "title": "Update the website’s top/hero messaging to clearly state that courses are available in Open/Distance mode and Online mode, and that these options are available across Chhattisgarh, using correct English spelling and grammar.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-revise-the-upper-section-design-header-home-hero-area-to-a-refreshed-more-polished-layout-while-keeping-the-existing-navigation-targets-home-services-streams-about-contact-responsiveness-and-scroll-to-section-behavior-intact",
+      "title": "Revise the upper section design (header + home hero area) to a refreshed, more polished layout while keeping the existing navigation targets (Home/Services/Streams/About/Contact), responsiveness, and scroll-to-section behavior intact.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a website for Vidhyapith Education (education consultancy) presenting services for Graduation to PhD across all streams and enabling user contact",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add backend support to accept and persist contact inquiries submitted from the Contact form.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Update site copy to state courses are available in Open/Distance and Online modes, available across Chhattisgarh.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Revise the upper section design (top/hero/header area) per updated design preference.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Vidhyapith Education",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

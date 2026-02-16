@@ -1,0 +1,50 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Refresh header/hero design and update hero copy for course modes across Chhattisgarh",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "summary": "Update home hero messaging to clearly state Open/Distance and Online course modes are available across Chhattisgarh with correct English.",
+      "acceptanceCriteria": [
+        "Home hero section includes the information that courses are available in Open/Distance and Online modes.",
+        "Home hero section includes the information that services/courses are available across Chhattisgarh.",
+        "All new/updated user-facing text is in clear English with correct spelling (e.g., “Open/Distance”, “Online”, “Chhattisgarh”)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/sections/HomeHero.tsx",
+          "operation": "modify",
+          "description": "Rewrite the hero headline and supporting paragraph to explicitly mention courses available in Open/Distance mode and Online mode across Chhattisgarh, ensuring correct spelling/grammar and preserving existing CTA buttons and scroll behavior."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Redesign the upper section (fixed header + home hero) with a more polished, responsive layout while keeping navigation targets and smooth scroll behavior unchanged.",
+      "acceptanceCriteria": [
+        "Header remains fixed and functional on desktop and mobile, including the mobile menu toggle and smooth scrolling to sections.",
+        "The hero section layout/styling is visibly updated (typography, spacing, and/or composition) without removing the existing CTAs.",
+        "The updated upper design remains consistent with the site’s existing design system (colors, typography, components) and does not introduce blue/purple as the primary palette.",
+        "No changes are made to immutable frontend paths listed in SYSTEM_CONTEXT (hooks and ui components remain unedited)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/site/Header.tsx",
+          "operation": "modify",
+          "description": "Refresh header visuals (spacing, typography, container layout, and scrolled-state styling) while preserving fixed positioning, existing navigation labels/targets (Home/Services/Streams/About/Contact), mobile menu toggle behavior, and smooth scrolling."
+        },
+        {
+          "path": "frontend/src/components/sections/HomeHero.tsx",
+          "operation": "modify",
+          "description": "Update hero composition (layout, spacing, and typographic hierarchy) to a more polished design while keeping the existing CTAs and the background image at frontend/public/assets/generated/vidhyapith-education-hero.dim_1600x900.png in use."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Adjust global styling tokens/utilities as needed to support the refreshed upper-section look (e.g., consistent shadows, subtle borders, and readable hero overlay), keeping the existing teal/emerald + warm accent palette and avoiding blue/purple as primary."
+        }
+      ]
+    }
+  ]
+}

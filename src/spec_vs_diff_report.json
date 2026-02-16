@@ -1,0 +1,49 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-16T09:46:55.140Z",
+  "summary": "Hero and header were redesigned with updated copy and polished styling, preserving fixed header behavior, navigation targets, and smooth scrolling. However, the hero copy does not use the requested “Open/Distance” and “Online mode” phrasing exactly, and the diff includes broader global theme/styling changes beyond the header/hero scope.",
+  "missing_requirements": [
+    {
+      "id": "REQ-10",
+      "requirement": "Hero messaging must clearly state courses are available in “Open/Distance” mode and “Online” mode across Chhattisgarh, using correct English spelling/grammar (examples include “Open/Distance”, “Online”, “Chhattisgarh”).",
+      "reason": "The hero includes badges reading “Open & Distance Learning” and “Online Courses” rather than explicitly stating “Open/Distance mode” and “Online mode” as requested in the requirement/AC examples. While the meaning is similar, the specified wording is not present in the shown diff excerpt.",
+      "evidence": [
+        "frontend/src/components/sections/HomeHero.tsx"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "requirement": "Hero section styling must be updated without removing the existing CTAs.",
+      "reason": "The hero file is truncated; the diff summary claims CTAs are preserved, but the provided excerpt does not fully show the CTA section, so this cannot be conclusively verified from the available evidence.",
+      "evidence": [
+        "frontend/src/components/sections/HomeHero.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Global design system/theme color updates (OKLCH variables, palette rework) beyond the requested header/hero redesign.",
+      "reason": "The BuildRequest focuses on updating hero copy and redesigning the upper header/hero area; changing global CSS variables/theme is not explicitly requested and impacts the entire site.",
+      "evidence": [
+        "frontend/src/index.css"
+      ]
+    },
+    {
+      "description": "Tailwind configuration extensions (new shadows/animation/typography-related utilities) beyond the requested header/hero redesign.",
+      "reason": "The BuildRequest does not request changes to the Tailwind configuration; these changes affect global styling capabilities across the project.",
+      "evidence": [
+        "frontend/tailwind.config.js"
+      ]
+    }
+  ],
+  "confidence": 0.63,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/components/sections/HomeHero.tsx",
+    "frontend/src/components/site/Header.tsx",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "frontend/src/index.css": "Global styles with refined OKLCH color system maintaining warm teal/emerald primary and amber secondary palette, enhanced contrast values, and improved typography rendering with font smoothing.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended shadow utilities (soft-lg), refined animation timing for fade-in effects, and added letter-spacing utilities for improved typographic control.",
+  "frontend/index.html": "HTML entry point with page title, meta description, favicon link, and Google Fonts preconnect for Vidhyapith Education.",
+  "frontend/src/App.tsx": "Main application component rendering the complete single-page layout with Header, all content sections (Hero, Services, Streams, About, Contact), and Footer.",
+  "frontend/src/components/site/Header.tsx": "Responsive fixed header with enhanced visual polish including refined spacing, backdrop blur effects, border styling on scroll, logo with tagline \"Across Chhattisgarh\", smooth-scroll navigation, and mobile menu toggle.",
+  "frontend/src/components/site/Footer.tsx": "Footer component with branding, quick links, contact CTA, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/sections/HomeHero.tsx": "Refreshed hero section with updated messaging highlighting \"Open & Distance Learning\" and \"Online Courses\" available \"Across Chhattisgarh\", featuring enhanced typography hierarchy, prominent badges for course modes, improved layout spacing, and preserved CTAs with smooth scrolling (fixed conflicting Tailwind classes).",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section displaying six service cards (counseling, admissions, career planning, research guidance, scholarships, profile building) with icons and program level badges.",
+  "frontend/src/components/sections/StreamsSection.tsx": "Streams section showcasing eight academic discipline cards with icons and examples, plus a CTA for unlisted streams.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section with descriptive copy about Vidhyapith Education and a grid of four value propositions with icons.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with inquiry form (name, email, level, stream, message), validation, submission states, success/error notices, and debug panel integration.",
+  "frontend/src/components/site/InlineNotice.tsx": "Reusable alert component displaying success or error messages with appropriate icons and accessible role attributes.",
+  "frontend/src/components/sections/InquiryDebugPanel.tsx": "Debug panel component that fetches and displays submitted inquiry confirmation after successful form submission.",
+  "frontend/src/hooks/useSubmitInquiry.ts": "React Query mutation hook for submitting contact inquiries to the backend and invalidating related queries on success.",
+  "frontend/src/hooks/useGetInquiry.ts": "React Query hook for fetching a specific inquiry by principal, with error handling that returns null for non-existent inquiries."
+}

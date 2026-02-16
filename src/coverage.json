@@ -1,0 +1,56 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-16T09:46:55.143Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Update the website’s top/hero messaging to clearly state that courses are available in Open/Distance mode and Online mode, and that these options are available across Chhattisgarh, using correct English spelling and grammar.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/sections/HomeHero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/sections/HomeHero.tsx"
+        ]
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Revise the upper section design (header + home hero area) to a refreshed, more polished layout while keeping the existing navigation targets (Home/Services/Streams/About/Contact), responsiveness, and scroll-to-section behavior intact.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/site/Header.tsx",
+          "frontend/src/components/sections/HomeHero.tsx",
+          "frontend/src/index.css"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/site/Header.tsx",
+          "frontend/src/components/sections/HomeHero.tsx",
+          "frontend/src/index.css"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/sections/HomeHero.tsx",
+    "frontend/src/components/site/Header.tsx",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
